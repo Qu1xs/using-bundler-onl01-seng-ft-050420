@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 gem "rspec"
-gem 'octokit', '1.4.4'
-
+gem 'sinatra', '1.4.4'
+gem 'octokit', '~> 2.0'
  
 group :development do
 gem "pry"
